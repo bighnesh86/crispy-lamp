@@ -1,2 +1,9 @@
-# crispy-lamp
-A simple and intuitive todo list application built using JavaScript, HTML, and CSS. This project allows users to search, add, edit, and delete items. Uses local storage to store the data. Feel free to contribute or use it as a reference for your own projects!
+# Crispy Lamp - Todo List App
+
+A simple and intuitive todo list application built using JavaScript, HTML, and CSS. This project allows users to create, manage, and track their daily tasks efficiently. It leverages modern web development techniques and follows best practices in both frontend and backend development.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
