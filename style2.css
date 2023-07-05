@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #082cde1e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.todo-app h2 {
+    color: #2e2e2e;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.todo-app h2 span {
+    color: #ff6f61;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.row input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.row input::placeholder {
+    color: #999999;
+}
+
+.row button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.row button:hover {
+    background-color: #f55c4e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #ff6f61;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+ul li input[type="checkbox"]:checked {
+    border-color: #57bb8a;
+    background-color: #57bb8a;
+}
+
+ul li label {
+    flex: 1;
+    color: #2e2e2e;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+ul li button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ff3f3f;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+ul li button:hover {
+    color: #d32f2f;
+}
+
+.empty-message {
+    text-align: center;
+    color: #999999;
+    margin-top: 20px;
+}
